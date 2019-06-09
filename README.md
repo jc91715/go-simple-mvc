@@ -1,5 +1,7 @@
 # go-simple-mvc
 
+[demo](http://go-simple-mvc.jc91715.top:9090/)
+
 从这个文档[build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)学习到很多。
 
 ## 安装依赖
