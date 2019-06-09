@@ -60,8 +60,8 @@ type RainlabBlogPosts struct {
 使用
 ```
     o := orm.NewOrm()
-		CheckErr(err)
-		post := model.RainlabBlogPosts{Id: id}
+		
+    post := model.RainlabBlogPosts{Id: id}
 ```
 ## 4 视图
 
@@ -114,8 +114,8 @@ type RainlabBlogPosts struct {
 
 
 ```
-      s1, _ := template.ParseFiles("view/layout/header.tpl", "view/post/show.tpl", "view/layout/footer.tpl")//装载视图
+  s1, _ := template.ParseFiles("view/layout/header.tpl", "view/post/show.tpl", "view/layout/footer.tpl")//装载视图
 
-			s1.ExecuteTemplate(c.Ct.ResponseWriter, "show", "string")
+  s1.ExecuteTemplate(c.Ct.ResponseWriter, "show", "string")
 
 ```
