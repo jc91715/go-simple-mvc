@@ -28,7 +28,7 @@ a.AddRoute("/posts/:post_id([0-9]+)", map[string]string{
 		"GET": "Show",//对应PostController的Show方法
 	}, &controller.PostController{})
 ```
-## 创建控制器
+## 2 创建控制器
 
 在`controller`下创建`PostController.go`
 
