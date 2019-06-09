@@ -121,3 +121,13 @@ type RainlabBlogPosts struct {
   s1.ExecuteTemplate(c.Ct.ResponseWriter, "show", "string")
 
 ```
+
+
+## 数据库表结构结构
+```
+CREATE TABLE `rainlab_blog_posts` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `content_html` longtext COLLATE utf8mb4_unicode_ci,
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
