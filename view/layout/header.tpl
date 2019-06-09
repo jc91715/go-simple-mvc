@@ -16,7 +16,7 @@
         background-color:black;
  padding:10px;
         }
-        code{
+       pre> code{
 color:white;
            
         }
