@@ -7,10 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>go-simple-mvc</title>
     <style>
+     
       body{
         margin:30px;
-      <!--  text-align:center-->
+     
       }
+        pre{
+        background-color:black;
+ padding:10px;
+        }
+        code{
+color:white;
+           
+        }
+	img{
+max-width:100%
+}
+    
     </style>
 </head>
 <body>
